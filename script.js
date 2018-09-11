@@ -24,6 +24,7 @@ function guessTheLetter(){
         winsElement.innerHTML = `Wins: ${wins}`
         remainingGuesses = 5
         guessesLeft.innerHTML = `Remaining Guesses: ${remainingGuesses}`
+        randomLetter = alphabetArr[Math.floor(Math.random() * 25)]
 
     
         previousGuesses.innerHTML = `Previous Guessses: `
