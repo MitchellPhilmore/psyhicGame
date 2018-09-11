@@ -7,6 +7,10 @@
     border: 2px solid gray;
     position: relative;
     top:20%;
+    font-family: 'Chango', cursive;
+    background-color:#d6bead;
+
+
 }
 
 button{
@@ -14,6 +18,10 @@ button{
     height:50px;
 }
 
-h1{
-    font-family: 'Permanent Marker', cursive;
+.title{
+    font-size:200%;
+    padding-top: 5px;
 }
+
+
+  
