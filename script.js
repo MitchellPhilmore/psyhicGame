@@ -16,7 +16,7 @@ let randomLetter = alphabetArr[Math.floor(Math.random() * 25)]
 
 function guessTheLetter(){
 
-  guess =  prompt('What number am I thinking of ?')
+  guess =  prompt('What letter am I thinking of ?')
 
     if(guess === randomLetter){
         wins++
